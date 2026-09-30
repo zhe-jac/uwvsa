@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff9f0;
+  --foreground: #2a1a15;
+
+  --vsa-red: #da251d;
+  --vsa-red-dark: #a81e17;
+  --vsa-gold: #f4b400;
+  --vsa-gold-light: #fde8a8;
+  --vsa-cream: #fff9f0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-vsa-red: var(--vsa-red);
+  --color-vsa-red-dark: var(--vsa-red-dark);
+  --color-vsa-gold: var(--vsa-gold);
+  --color-vsa-gold-light: var(--vsa-gold-light);
+  --color-vsa-cream: var(--vsa-cream);
+  --font-sans: var(--font-be-vietnam-pro);
+  --font-display: var(--font-be-vietnam-pro);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
